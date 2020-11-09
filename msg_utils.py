@@ -10,14 +10,7 @@ def msg_contains(msg, triggers):
     return any(t in msg for t in triggers)
 
 
-def msg_starts_with(msg, triggers):
-    for trigger in triggers:
-        if msg.startswith(trigger):
-            return True
-    return False
-
-
-async def send_random_response(message, responses, img_dir=""):
+async def send_random(message, responses, img_dir=""):
     response = random.choice(responses)
     img_name = img_dir + response
     if is_image(img_name):
@@ -33,8 +26,10 @@ def is_image(path):
 
 
 def get_eqn_and_ans(msg):
+    """Parse str-equation and return answer"""
     msg = msg.split("!2 math")
     if len(msg) == 2:
         eqn = msg[1]
-        return eqn, eval(eqn)
+        ans = eval(eqn)
+        return eqn, ans
     ValueError("bad message for !2 math")
