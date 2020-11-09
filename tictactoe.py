@@ -1,5 +1,4 @@
 import asyncio
-import discord
 import random
 import time
 
@@ -10,7 +9,6 @@ GAME_PIECES = {
 EMPTY = '⬜'
 X = ' X '
 O = ' O '
-EMPTY = '     '
 VALID_MOVES = ['tl', 'tc', 'tr', 'cl', 'cc', 'cr', 'bl', 'bc', 'br']
 TTT_MOVES = ['↖️', '⬆️', '↗️', '⬅️', '⚫', '➡️', '↙️', '⬇️', '↘️']
 MAX_MOVES = 3

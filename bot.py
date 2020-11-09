@@ -1,11 +1,6 @@
-# bot.py
 import os
-import random
 import discord
 from dotenv import load_dotenv
-
-import msg_utils
-import asyncio
 
 # functionality
 import tictactoe
