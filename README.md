@@ -6,3 +6,7 @@
 * play TicTacToe with `!2 tt`
 * play Rock Paper Scissors with `!2 rps`
 * google something with `!2 g <insert-query-without-these-arrow-symbols>`
+
+## Other
+* [x] Host 002 on an AWS EC2 instance
+* [ ] Get 002 approved on [top.gg](https://top.gg/)
