@@ -14,7 +14,7 @@ AUTH_TOKEN = str(redis_server.get('AUTH_TOKEN').decode('utf-8'))
 class ZeroTwoBot(discord.Client):
     async def on_ready(self):
         print(f'{client.user} has connected to Discord!')
-        await self.change_presence(activity=discord.Game('outside'))
+        await self.change_presence(activity=discord.Game('xylophone'))
 
     async def on_message(self, message):
         if message.author == self.user:

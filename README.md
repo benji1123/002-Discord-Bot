@@ -9,4 +9,9 @@
 
 ## Other
 * [x] Host 002 on an AWS EC2 instance
+* [x] Setup AWS CodeDeploy ([guide by fastfwd](https://www.fastfwd.com/continuous-deployment-github-aws-ec2-using-aws-codedeploy/)) 
 * [ ] Get 002 approved on [top.gg](https://top.gg/)
+
+### Troubleshooting
+AWS
+* [CodeDeploy : check if instance was started with an IAM instance profile](https://stackoverflow.com/questions/41997426/instanceagentpluginscodedeployplugincommandpoller-missing-credentials)
