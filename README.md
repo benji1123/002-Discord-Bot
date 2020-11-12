@@ -1,4 +1,6 @@
-### 002 Discord Bot
+# 002 Discord Bot
+[![HitCount](http://hits.dwyl.com/benji1123/ZeroTwoDiscordBot.svg)](http://hits.dwyl.com/benji1123/ZeroTwoDiscordBot)
+[![](https://tokei.rs/b1/github/benji1123/ZeroTwoDiscordBot)](https://github.com/benji1123/ZeroTwoDiscordBot)
 ![](https://data.whicdn.com/images/311867192/original.gif)
 
 ## Things 002 does
