@@ -1,3 +1,8 @@
+'''
+source code taken from:
+https://towardsdatascience.com/build-a-simple-chatbot-with-python-and-google-search-c000aa3f73f0
+'''
+
 import requests
 import string
 from lxml import html
@@ -6,6 +11,7 @@ from bs4 import BeautifulSoup
 
 # to search
 # print(chatbot_query('how old is samuel l jackson'))
+
 
 def chatbot_query(query, index=0):
     fallback = 'Sorry, I cannot think of a reply for that.'

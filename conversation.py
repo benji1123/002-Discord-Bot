@@ -13,7 +13,7 @@ IMAGE_DIR = "zerotwo/"
 THINGS_TO_RESPOND_TO = {
     "rpg miniboss @here": ["fight", "please accept my moral support", "we shall win"],
     "rpg arena @everyone": ["join", "moral support", "we cannot lose"],
-    "stfu": ["don't be mean, darling!", "that hurts"],
+    "stfu": ["don't be mean, darling!", "that hurts", "after ypu suck my d*ck"],
     "rpg stfu": ["no! 😠", "rpg go away"],
     "lol": ["🤣", "knee slapper", "lmao", "lolololol"],
     "lmao": ["🤣"],
@@ -30,7 +30,7 @@ THINGS_TO_RESPOND_TO = {
     "hmm": ["I wonder if...", "well...", "okay but...", "no I disagree"],
     "bro": ["yeah?", "let's get drunk", "saturdays are for the boys", "i'm an only child"],
     "ily": ["ily too", "*ily 3000", "ily 6353542"],
-    "002": ["what?", "yes?", "that's my name", "is the best", "*speaking*", "no, i am 003"],
+    "002": ["what?", "yes?", "that's my name", "is the best", "*speaking*", "no, i am 003", "i love ben"],
     "02": ["yes?", "one sec, i'm on the phone", "hey darling", "03", "the moon landing was faked"],
     "ben fix ur bot": ["i will notify him", "my developer is currently watching anime"],
 }

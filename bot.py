@@ -1,14 +1,14 @@
-import os
 import discord
-from dotenv import load_dotenv
 
 # functionality
 import tictactoe
 import rps
 import conversation
 
-load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+import redis
+
+redis_server = redis.Redis()
+AUTH_TOKEN = str(redis_server.get('AUTH_TOKEN').decode('utf-8'))
 
 
 class ZeroTwoBot(discord.Client):
@@ -33,4 +33,4 @@ class ZeroTwoBot(discord.Client):
 
 
 client = ZeroTwoBot()
-client.run(TOKEN)
+client.run(AUTH_TOKEN)
