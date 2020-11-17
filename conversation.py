@@ -6,14 +6,14 @@ import google_handler
 
 IMAGE_FILE_EXTENSIONS = [".jpg", ".png", ".gif"]
 
-NAMES = [" 002", " 02", "002 ", "02 ", "darling", "dino", "dinosaur", "waifu", "zerotwo", "o2", "oxygen", "003"]
+NAMES = [" 002 ", " 02 ", "darling", "dino", "dinosaur", "waifu", "zerotwo", "o2", "oxygen", "003"]
 NAMES_RESPONSES = os.listdir('zerotwo/')
 IMAGE_DIR = "zerotwo/"
 
 THINGS_TO_RESPOND_TO = {
     "rpg miniboss @here": ["fight", "please accept my moral support", "we shall win"],
     "rpg arena @everyone": ["join", "moral support", "we cannot lose"],
-    "stfu": ["don't be mean, darling!", "that hurts", "after ypu suck my d*ck"],
+    "stfu": ["don't be mean, darling!", "that hurts", "what does that mean?", "lalalalalalala"],
     "rpg stfu": ["no! 😠", "rpg go away"],
     "lol": ["🤣", "knee slapper", "lmao", "lolololol"],
     "lmao": ["🤣"],
@@ -21,7 +21,7 @@ THINGS_TO_RESPOND_TO = {
     "rip": ["press 'F' to pay respects", "rest in peace", "rest in pieces"],
     "❤️": ["listen to the beat, beat, beat", "ily too", "💙💙💙"],
     "huh?": ["nani??"],
-    "yummy": ["i'm hungry", "my favorite food is mice", "hello i am 02 and i am hungry", "i want", "cookie?"],
+    "yummy": ["i'm hungry", "my favorite food is mice", "hello i am 02 and i am hungry", "i want", "COOKIE?"],
     "ohh": ["THAT MAKES SENSE", "we are enlightened", "the moon landing was faked"],
     "congrats": ["yaaaaay great job 🥳", "nice!"],
     "!np": ["i think... i like this song", "this song sucks", "listed to Kiss of Death"],
@@ -33,6 +33,7 @@ THINGS_TO_RESPOND_TO = {
     "002": ["what?", "yes?", "that's my name", "is the best", "*speaking*", "no, i am 003", "i love ben"],
     "02": ["yes?", "one sec, i'm on the phone", "hey darling", "03", "the moon landing was faked"],
     "ben fix ur bot": ["i will notify him", "my developer is currently watching anime"],
+    "lolmao": ["nice try", "lolmao"],
 }
 
 
