@@ -1,5 +1,5 @@
 # 002 Discord Bot
-[![](https://tokei.rs/b1/github/benji1123/ZeroTwoDiscordBot)](https://github.com/benji1123/ZeroTwoDiscordBot)
+[![Discord Bots](https://top.gg/api/widget/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
 
 ![](https://data.whicdn.com/images/311867192/original.gif)
 
