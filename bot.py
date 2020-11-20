@@ -1,17 +1,14 @@
-import discord
-
-# functionality
-import TicTacToe
 import rps
 import conversation
-from TicTacToeHandler import TicTacToeHandler
+import TicTacToeHandler
 
+import discord
 import redis
 
 redis_server = redis.Redis()
 AUTH_TOKEN = str(redis_server.get('AUTH_TOKEN').decode('utf-8'))
 
-TICTACTOE_PROMPT = "!1 tt"
+TICTACTOE_PROMPT = "!2 tt"
 
 
 class ZeroTwoBot(discord.Client):
