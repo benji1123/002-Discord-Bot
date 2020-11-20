@@ -1,14 +1,17 @@
 import discord
 
 # functionality
-import tictactoe
+import TicTacToe
 import rps
 import conversation
+from TicTacToeHandler import TicTacToeHandler
 
 import redis
 
 redis_server = redis.Redis()
 AUTH_TOKEN = str(redis_server.get('AUTH_TOKEN').decode('utf-8'))
+
+TICTACTOE_PROMPT = "!1 tt"
 
 
 class ZeroTwoBot(discord.Client):
@@ -27,9 +30,11 @@ class ZeroTwoBot(discord.Client):
         await conversation.respond_to_math(message, msg_content)
         await conversation.respond_to_google(message, msg_content)
 
-        # if someone wants to play a game
+        # user wants to play Rock Paper Scissors
         await rps.play_rps(client, message, msg_content)
-        await tictactoe.play_ttt(client, message, msg_content)
+        # a user has requested a TicTacToe game
+        if message.content.startswith(TICTACTOE_PROMPT):
+            await TicTacToeHandler.start_game(client, message.channel, message.author)
 
 
 client = ZeroTwoBot()
