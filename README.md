@@ -12,7 +12,7 @@
 ## Other
 * [x] Host 002 on an AWS EC2 instance
 * [x] Setup AWS CodeDeploy ([guide by fastfwd](https://www.fastfwd.com/continuous-deployment-github-aws-ec2-using-aws-codedeploy/)) 
-* [ ] Get 002 approved on [top.gg](https://top.gg/)
+* [x] Get 002 approved on [top.gg](https://top.gg/)
 
 ### Troubleshooting
 AWS
