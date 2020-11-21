@@ -1,4 +1,5 @@
 # 002 Discord Bot
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Discord Bots](https://top.gg/api/widget/status/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
 [![Discord Bots](https://top.gg/api/widget/upvotes/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
 [![Discord Bots](https://top.gg/api/widget/servers/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
