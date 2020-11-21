@@ -1,5 +1,6 @@
 # 002 Discord Bot
-[![Discord Bots](https://top.gg/api/widget/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
+[![Discord Bots](https://top.gg/api/widget/status/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
+[![Discord Bots](https://top.gg/api/widget/upvotes/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
 
 ![](https://data.whicdn.com/images/311867192/original.gif)
 
