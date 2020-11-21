@@ -3,9 +3,11 @@
 
 [![Discord Bots](https://top.gg/api/widget/status/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
 [![Discord Bots](https://top.gg/api/widget/servers/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
-
+[![Discord Bots](https://top.gg/api/widget/upvotes/774732068282171424.svg)](https://top.gg/bot/774732068282171424)
 
 ![](https://data.whicdn.com/images/311867192/original.gif)
+
+[![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 ## Things 002 does
 * responds to certain keywords and phrases (you'll stumble upon them naturally)
